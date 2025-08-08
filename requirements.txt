@@ -1,0 +1,7 @@
+# zkComply MVP Requirements
+# Pure Python implementation - no external dependencies required!
+
+# Optional: For enhanced development experience
+# pytest>=6.0.0
+# black>=21.0.0
+# flake8>=3.8.0
