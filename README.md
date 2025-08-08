@@ -2,7 +2,7 @@
 
 **Privacy-preserving compliance verification using zk-SNARKs**
 
-## 🚀 Quick Deploy (2 commands)
+##  Quick Deploy (2 commands)
 
 ```bash
 chmod +x deploy.sh
@@ -13,7 +13,7 @@ chmod +x deploy.sh
 - KYC Provider: http://localhost:5002
 - Frontend: http://localhost:3000
 
-## 🔐 System Overview
+##  System Overview
 
 Zero-knowledge proofs enable users to prove OFAC compliance without revealing personal information:
 - **97% data reduction** vs traditional KYC
@@ -21,7 +21,7 @@ Zero-knowledge proofs enable users to prove OFAC compliance without revealing pe
 - **13,661 OFAC entries** across 3 databases
 - **Multi-jurisdiction compliance** with single proof
 
-## 🏗 Architecture
+##  Architecture
 
 ```
 Off-Chain KYC → ZK Proof Engine → On-Chain Verifier
@@ -30,7 +30,7 @@ OFAC Screening   circom/snarkjs   Smart Contract
 JWT Credentials  Privacy Proofs   Payment Auth
 ```
 
-## 📊 Performance
+##  Performance
 
 | Metric | Traditional | ZK-OFAC |
 |--------|------------|---------|
@@ -39,14 +39,14 @@ JWT Credentials  Privacy Proofs   Payment Auth
 | Cost | $25-50 | $0.50 |
 | Accuracy | 78% | 96.7% |
 
-## 🎯 Use Cases
+##  Use Cases
 
 - **P2P Payments**: Privacy-preserving compliance
 - **DeFi Integration**: Anonymous but compliant access
 - **Cross-Border**: Multi-jurisdiction verification
 - **Mobile Apps**: SDK-ready implementation
 
-## 🧪 Test Commands
+##  Test Commands
 
 ```bash
 # Test KYC screening
@@ -58,7 +58,7 @@ curl -X POST http://localhost:5002/api/screen-user \
 window.demoZKCompliance()
 ```
 
-## 📋 Components
+##  Components
 
 - `circuits/` - Zero-knowledge circom circuits
 - `contracts/` - Smart contract verifier  
@@ -66,4 +66,4 @@ window.demoZKCompliance()
 - `frontend/` - Web3 proof generation interface
 - `deploy.sh` - One-command deployment
 
-🎉 **Ready for production deployment!**
+ **Ready for production deployment!**
